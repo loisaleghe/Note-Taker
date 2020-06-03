@@ -1,0 +1,25 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "connecting the front end to the back end of the note taker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loisaleghe/Note-Taker.git"
+  },
+  "author": "Lois Aleghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loisaleghe/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/loisaleghe/Note-Taker#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
