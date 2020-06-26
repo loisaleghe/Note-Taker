@@ -1,7 +1,7 @@
 //Dependencies
 const http = require("http");
 const path = require("path");
-const PORT = 3000;
+const PORT = 3000 || process.env.PORT;
 const express = require("express");
 let fs = require("fs");
 let db = require("./db/db.json");
